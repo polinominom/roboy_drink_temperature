@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+  <name>roboy_drink_assistant</name>
+  <version>0.0.0</version>
+  <description>drink assistant, drink type and temprature</description>
+  <maintainer email="okankamilsen@gmail.com">Okan Sen</maintainer>
+  <license>BSD</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roboy_communication_cognition</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>roboy_communication_cognition</run_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
